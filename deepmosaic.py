@@ -83,6 +83,7 @@ if __name__ == '__main__':
         print('Python:',sys.version)
         import torch
         print('Pytorch:',torch.__version__)
+        os.environ["QT_QPA_PLATFORM"] = "offscreen"
         import cv2
         print('OpenCV:',cv2.__version__)
         import platform
